@@ -56,6 +56,11 @@ where m is the slope, that is how steep is our line
 
     [gdf]: https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png
 
+    Image Representation of what gradient descent does with the line
+    ![alt text][gif]
+
+    [gif]: https://cdn-images-1.medium.com/max/900/1*O5xIOeMQNtxoFcPBIQ-Aog.gif
+
 
 4. After the point of local minima is reached, we will get our optimal m and b values.
     Which can be now used to predict using the equation y=mx+b.
@@ -68,12 +73,14 @@ You can also specify these values while creating the instance or object of the L
 A test file is also included with a dataset which shows how to use the model.
 
 ## These are the comparision between linear regression with sklearn and defined one:
-Original:
+
 ![alt text][original]
 
 [original]: https://github.com/tanishq-malhotra/Linear-Regression-from-Scratch/blob/master/images/original.png?raw=true
 
-Defined:
 ![alt text][defined]
 
 [defined]: https://github.com/tanishq-malhotra/Linear-Regression-from-Scratch/blob/master/images/defined.png?raw=true
+
+
+## First picture was using scikit learn and second was defined one and clearly both are almost same!!
