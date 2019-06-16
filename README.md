@@ -1,14 +1,14 @@
-##Implementing Linear Regression from scratch in Python
+## Implementing Linear Regression from scratch in Python
 
 Linear Regression is a technique in which a line which best fits our data is calculated.
 On the basis of that line predictions are calculated.
 
-##Linear Regression is based on the concept of:
+## Linear Regression is based on the concept of:
 ![alt text][lr1]
 
 [lr1]: https://cdn-images-1.medium.com/max/800/1*TEzHQl-H0E4YKOpInAN_ZQ.png
 
-#or
+# or
 
 ![alt text][lr2]
 
@@ -17,7 +17,7 @@ On the basis of that line predictions are calculated.
 
 where m is the slope, that is how steep is our line
 
-##Finding the best fit line
+## Finding the best fit line
 
 1. m and b both have an initial value of 0.
 
@@ -53,7 +53,7 @@ where m is the slope, that is how steep is our line
 
     The values of new m and b is calculated using bellow formula
     ![alt text][gdf]
-    
+
     [gdf]: https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png
 
 
