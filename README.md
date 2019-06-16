@@ -66,3 +66,8 @@ Initial value of Learning Rate is 0.01 and iterations are set to 1000.
 You can also specify these values while creating the instance or object of the LinearRegression class.
 
 A test file is also included with a dataset which shows how to use the model.
+
+## These are the comparision between linear regression with sklearn and defined one:
+![alt text][original]
+
+original: [original]:https://github.com/tanishq-malhotra/Linear-Regression-from-Scratch/blob/master/images/original.png?raw=true
