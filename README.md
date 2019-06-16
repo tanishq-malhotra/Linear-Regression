@@ -40,7 +40,7 @@ where m is the slope, that is how steep is our line
 
     We have to find the point in the local minima as depicted by the picture.
     Gradient Descent can be explained by the shape of a bowl.
-    We have to go down gradiently untial point of local minima reached.
+    We have to go down gradiently until point of local minima reached.
     This point of local minima will have the lowest error and goal is to minimize
     the error.
 
