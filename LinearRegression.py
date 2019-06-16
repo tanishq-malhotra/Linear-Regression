@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import scale
-import pandas as pd
 class LinearRegression():
 
     # constructor called
