@@ -5,10 +5,13 @@ On the basis of that line predictions are calculated.
 
 ##Linear Regression is based on the concept of:
 ![alt text][lr1]
+
 [lr1]: https://cdn-images-1.medium.com/max/800/1*TEzHQl-H0E4YKOpInAN_ZQ.png
 
 #or
+
 ![alt text][lr2]
+
 [lr2]: https://cdn-images-1.medium.com/max/800/1*oNsv50WV-2gGXqpAT6Snag.png
 
 
@@ -31,6 +34,7 @@ where m is the slope, that is how steep is our line
     Gradient Descent:
 
     ![alt text][gd]
+
     [gd]: https://cdn-images-1.medium.com/max/1600/1*91DQMNKmNIdncqx6FsB4Iw.png
 
 
@@ -49,9 +53,10 @@ where m is the slope, that is how steep is our line
 
     The values of new m and b is calculated using bellow formula
     ![alt text][gdf]
+    
     [gdf]: https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png
 
-    
+
 4. After the point of local minima is reached, we will get our optimal m and b values.
     Which can be now used to predict using the equation y=mx+b.
 
