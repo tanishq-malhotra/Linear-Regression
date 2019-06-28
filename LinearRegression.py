@@ -1,8 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import scale
-class LinearRegression():
 
+class LinearRegression():
     # constructor called
     def __init__(self, LR=0.01, itr=1000):
         self.LR = LR
@@ -13,8 +12,17 @@ class LinearRegression():
         self.b = 0
 
     # scalling the data between -1 and 1 to make calucations eaiser
-    def scaleData(self, X):
-        return scale(X)
+    def scaleData(self,X):
+        j = 0
+        arr = np.zeros(X.shape)
+        for i in X.columns:
+            mean = 0
+            temp = X[i]
+            mean = np.mean(temp)
+            temp =  (temp - mean) / np.std(temp)
+            arr[:,j] = temp
+            j += 1
+        return arr
 
     # funtion to calculate the loss of the line
     def calculateLoss(self,b, m , X, Y):
@@ -101,9 +109,18 @@ class LinearRegression():
 
     def predict(self,test):
         predictions = []
-        test = scale(test)
+        test = self.scaleData(test)
         for i in range(0,len(test)):
             y = (self.m * test[i]) + self.b
             predictions.append(y)
         
         return predictions
+    
+    def score(self, pred, y_test):
+        y_test = self.scaleData(y_test)
+        mean = np.mean(y_test)
+        actual = np.sum((y_test - mean)**2)
+        estimated = np.sum((pred - mean)**2)
+        rsq = 1 - (estimated/actual)
+        
+        print(rsq)
